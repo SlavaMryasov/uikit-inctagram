@@ -13,11 +13,7 @@ export default defineConfig({
       name: 'uikit-inctagram',
     },
     rollupOptions: {
-      external: [
-        ...Object.keys(dependencies),
-        ...Object.keys(devDependencies),
-        'react/jsx-runtime',
-      ],
+      external: [...Object.keys(dependencies), ...Object.keys(devDependencies), 'react/jsx-runtime'],
       output: {
         dir: 'dist',
         entryFileNames: '[name].js',
