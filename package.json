@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "format": "prettier --write src",
-    "lint": "eslint --fix --no-cache src/**/*.{tsx,ts,jsx,js} --no-error-on-unmatched-pattern"
+    "format": "prettier --write .",
+    "lint": "eslint --fix --no-cache '**/*.{tsx,ts,jsx,js}' --no-error-on-unmatched-pattern"
   },
   "dependencies": {
     "react": "18.3.1",
